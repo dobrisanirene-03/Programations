@@ -1,0 +1,45 @@
+cd C:\Users\Usuario\Documents\NetBeansProjects\examennov; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.examennov.ExamenProgramacion -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+----------------------< com.mycompany:examennov >-----------------------
+Building examennov 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ examennov ---
+skip non existing resourceDirectory C:\Users\Usuario\Documents\NetBeansProjects\examennov\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ examennov ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug release 26] to target\classes
+
+--- exec:3.6.3:exec (default-cli) @ examennov ---
+Introduce el primer n�mero (3 cifras): 319
+Introduce el segundo n�mero (2 cifras): 41
+Introduce el tercer n�mero (3 cifras): 234
+
+--- CUADRADO DEL MAYOR (319) ---
+1
+
+--- CUADRADO DEL MEDIANO (234) ---
+3 2 2
+4 3 2
+4 4 3
+
+--- CUADRADO DEL MENOR (41) ---
+* 4
+1 *
+
+=== PRUEBA DE VALIDACI�N INTERNA DE pintarCuadradoPerfecto ===
+Llamada: pintarCuadradoPerfecto (49);
+Salida:
+Para que el cuadrado sea perfecto el n�mero debe ser de 3 cifras
+Llamada: pintarCuadradoPerfecto (1234, true);
+Salida:
+Para que el cuadrado sea perfecto el n�mero debe ser de 3 cifras
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  14.059 s
+Finished at: 2026-11-18T22:04:32+01:00
+------------------------------------------------------------------------
